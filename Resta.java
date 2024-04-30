@@ -1,7 +1,7 @@
 public class Resta {
-    int a, b, r;
+    private int a, b, r;
 
-    public int sumar() {
+    public int resta() {
         r = this.a - this.b;
         return r;
     }

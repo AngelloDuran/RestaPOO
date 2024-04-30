@@ -10,8 +10,8 @@ public class MainResta {
         Resta p1 = new Resta();
         p1.setA(a);
         p1.setB(b);
-        // sm.sumar(a, b);
-        System.out.println(p1.sumar());
+        // sm.resta(a, b);
+        System.out.println(p1.resta());
         System.out.println(ing.toString());
     }
 
