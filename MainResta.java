@@ -7,8 +7,12 @@ public class MainResta {
         int a = ing.nextInt();
         System.out.println("Ingrese el segundo numero");
         int b = ing.nextInt();
-        int r = a - b;
-        System.out.println("El resultado es:" + r);
+        Resta p1 = new Resta();
+        p1.setA(a);
+        p1.setB(b);
+        // sm.sumar(a, b);
+        System.out.println(p1.sumar());
+        System.out.println(ing.toString());
     }
 
 }
